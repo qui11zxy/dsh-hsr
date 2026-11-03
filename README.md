@@ -1,5 +1,7 @@
 # dsh-hsr
 
+[![npm](https://img.shields.io/npm/v/dsh-hsr.svg)](https://www.npmjs.com/package/dsh-hsr)
+
 DeepSeek Harness 插件：查询《崩坏：星穹铁道》的角色、光锥与遗器资料。
 
 装好之后，模型手里多一个 `hsr` 工具，问「三月七满级面板」「银河铁道之夜叠影五阶」「云无留迹的过客两件套效果」「欢愉命途都有谁」这类问题时会先查再答，不用凭记忆编数字。
@@ -22,8 +24,10 @@ DeepSeek Harness 插件：查询《崩坏：星穹铁道》的角色、光锥与
 
 ```bash
 cd ~/.dsh/profiles/desktop
-npm install github:qui11zxy/dsh-hsr
+npm install dsh-hsr
 ```
+
+也可以直接从 GitHub 装：`npm install github:qui11zxy/dsh-hsr`。
 
 然后在 `~/.dsh/profiles/desktop/package.json` 里把包名加进 bundles 列表：
 
