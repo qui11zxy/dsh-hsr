@@ -1,0 +1,10 @@
+# dsh-hsr bundle layer.
+#
+# 当 profile 的 package.json 在 dsh.profile.bundles 里列出 dsh-hsr 时加载；
+# loader 会从 profile 的 node_modules 解析这里写的 name。
+#
+# 1. 挂载插件本体（工具名 hsr）。
+- insert:
+    - id: hsr
+      name: dsh-hsr
+      config: {}

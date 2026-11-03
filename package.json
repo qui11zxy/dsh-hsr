@@ -1,0 +1,40 @@
+{
+  "name": "dsh-hsr",
+  "version": "0.2.0",
+  "description": "《崩坏：星穹铁道》资料查询：角色满级属性与行迹、技能星魂、光锥叠影、遗器套装，另带配队知识与设置页。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "config",
+    "rules",
+    "experience",
+    "dsh.bundle.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "honkai-star-rail",
+    "hsr",
+    "relic"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh.bundle.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "defaultLanguage": "zh",
+  "languages": {
+    "zh": "中",
+    "en": "英"
+  },
+  "nickname": {
+    "zh": "开拓者&星&穹",
+    "en": "Trailblazer"
+  },
+  "baseTypes": {
+    "Warrior": {
+      "zh": "毁灭",
+      "en": "Destruction",
+      "aliases": [
+        "毁灭",
+        "Destruction"
+      ]
+    },
+    "Rogue": {
+      "zh": "巡猎",
+      "en": "The Hunt",
+      "aliases": [
+        "巡猎",
+        "Hunt",
+        "The Hunt"
+      ]
+    },
+    "Mage": {
+      "zh": "智识",
+      "en": "Erudition",
+      "aliases": [
+        "智识",
+        "Erudition"
+      ]
+    },
+    "Shaman": {
+      "zh": "同谐",
+      "en": "Harmony",
+      "aliases": [
+        "同谐",
+        "Harmony"
+      ]
+    },
+    "Warlock": {
+      "zh": "虚无",
+      "en": "Nihility",
+      "aliases": [
+        "虚无",
+        "Nihility"
+      ]
+    },
+    "Knight": {
+      "zh": "存护",
+      "en": "Preservation",
+      "aliases": [
+        "存护",
+        "Preservation"
+      ]
+    },
+    "Priest": {
+      "zh": "丰饶",
+      "en": "Abundance",
+      "aliases": [
+        "丰饶",
+        "Abundance"
+      ]
+    },
+    "Memory": {
+      "zh": "记忆",
+      "en": "Remembrance",
+      "aliases": [
+        "记忆",
+        "Remembrance"
+      ]
+    },
+    "Elation": {
+      "zh": "欢愉",
+      "en": "Elation",
+      "aliases": [
+        "欢愉",
+        "Elation"
+      ]
+    }
+  },
+  "damageTypes": {
+    "Physical": {
+      "zh": "物理",
+      "en": "Physical",
+      "aliases": [
+        "物理",
+        "Physical"
+      ]
+    },
+    "Fire": {
+      "zh": "火",
+      "en": "Fire",
+      "aliases": [
+        "火",
+        "Fire"
+      ]
+    },
+    "Ice": {
+      "zh": "冰",
+      "en": "Ice",
+      "aliases": [
+        "冰",
+        "Ice"
+      ]
+    },
+    "Thunder": {
+      "zh": "雷",
+      "en": "Lightning",
+      "aliases": [
+        "雷",
+        "雷属性",
+        "Lightning",
+        "Thunder"
+      ]
+    },
+    "Wind": {
+      "zh": "风",
+      "en": "Wind",
+      "aliases": [
+        "风",
+        "Wind"
+      ]
+    },
+    "Quantum": {
+      "zh": "量子",
+      "en": "Quantum",
+      "aliases": [
+        "量子",
+        "Quantum"
+      ]
+    },
+    "Imaginary": {
+      "zh": "虚数",
+      "en": "Imaginary",
+      "aliases": [
+        "虚数",
+        "Imaginary"
+      ]
+    }
+  },
+  "tags": {
+    "SingleAttack": {
+      "zh": "单攻",
+      "en": "Single Target"
+    },
+    "AoEAttack": {
+      "zh": "群攻",
+      "en": "AoE"
+    },
+    "Blast": {
+      "zh": "扩散",
+      "en": "Blast"
+    },
+    "Bounce": {
+      "zh": "弹射",
+      "en": "Bounce"
+    },
+    "Support": {
+      "zh": "辅助",
+      "en": "Support"
+    },
+    "Defence": {
+      "zh": "防御",
+      "en": "Defense"
+    },
+    "Restore": {
+      "zh": "治疗",
+      "en": "Restore"
+    },
+    "Impair": {
+      "zh": "妨害",
+      "en": "Debuff"
+    },
+    "Enhance": {
+      "zh": "强化",
+      "en": "Buff"
+    },
+    "Summon": {
+      "zh": "召唤",
+      "en": "Summon"
+    },
+    "MazeAttack": {
+      "zh": "秘技",
+      "en": "Technique"
+    }
+  },
+  "stats": {
+    "zh": {
+      "title": "基础属性（80 级）",
+      "hp": "生命",
+      "attack": "攻击",
+      "defence": "防御",
+      "speed": "速度",
+      "criticalChance": "暴击率",
+      "criticalDamage": "暴击伤害",
+      "aggro": "嘲讽",
+      "traces": "行迹属性加成（合计）",
+      "skills": "技能",
+      "abilities": "额外能力",
+      "ranks": "星魂",
+      "exRanks": "额外星魂",
+      "memosprite": "忆灵",
+      "unique": "专属效果",
+      "glossary": "术语",
+      "intro": "简介",
+      "refinement": "叠影",
+      "count": "共 {n} 条",
+      "filtered": "（已按 {f} 筛选）",
+      "energy": "能量上限",
+      "energyRegen": "回能",
+      "break": "削韧",
+      "mainTarget": "主目标",
+      "adjacent": "相邻",
+      "allTargets": "全体",
+      "perHit": "每段"
+    },
+    "en": {
+      "title": "Base Stats (Lv. 80)",
+      "hp": "HP",
+      "attack": "ATK",
+      "defence": "DEF",
+      "speed": "SPD",
+      "criticalChance": "CRIT Rate",
+      "criticalDamage": "CRIT DMG",
+      "aggro": "Aggro",
+      "traces": "Trace Stat Bonuses (total)",
+      "skills": "Skills",
+      "abilities": "Bonus Abilities",
+      "ranks": "Eidolons",
+      "exRanks": "Extra Eidolons",
+      "memosprite": "Memosprites",
+      "unique": "Unique Effects",
+      "glossary": "Terms",
+      "intro": "Introduction",
+      "refinement": "Superimposition",
+      "count": "{n} entries",
+      "filtered": " (filtered by {f})",
+      "energy": "Energy",
+      "energyRegen": "Energy Regen",
+      "break": "Toughness",
+      "mainTarget": "main target",
+      "adjacent": "adjacent",
+      "allTargets": "all targets",
+      "perHit": "per hit"
+    }
+  },
+  "relics": {
+    "zh": {
+      "title": "遗器套装",
+      "list": "遗器套装列表",
+      "inner": "内圈",
+      "outer": "外圈",
+      "twoPiece": "2 件套",
+      "fourPiece": "4 件套"
+    },
+    "en": {
+      "title": "Relic Sets",
+      "list": "Relic Sets",
+      "inner": "Inner",
+      "outer": "Outer",
+      "twoPiece": "2-Pc",
+      "fourPiece": "4-Pc"
+    }
+  }
+}
