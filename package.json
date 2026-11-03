@@ -26,6 +26,15 @@
     "relic"
   ],
   "license": "MIT",
+  "author": "qui11zxy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qui11zxy/dsh-hsr.git"
+  },
+  "homepage": "https://github.com/qui11zxy/dsh-hsr#readme",
+  "bugs": {
+    "url": "https://github.com/qui11zxy/dsh-hsr/issues"
+  },
   "engines": {
     "node": ">=22"
   },
