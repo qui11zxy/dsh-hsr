@@ -4,6 +4,7 @@
   "description": "《崩坏：星穹铁道》资料查询：角色满级属性与行迹、技能星魂、光锥叠影、遗器套装、深渊关卡与主怪特点，另带配队知识与设置页。",
   "type": "module",
   "main": "lib/index.js",
+  "icon": "./dsh-hsr-ico.png",
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
@@ -14,6 +15,7 @@
     "config",
     "rules",
     "experience",
+    "dsh-hsr-ico.png",
     "dsh.bundle.patch.yml",
     "README.md",
     "LICENSE"
